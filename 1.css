@@ -1,0 +1,67 @@
+body {
+	
+	font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 10px;
+}
+
+.menu {
+	margin-top:8px;
+}
+
+.menu__item {
+	margin: 0 57px;
+}
+
+.menu__item a {
+	font-size:22px;
+	font-weight: 700;
+	color: #000;
+}
+
+.offer {
+	margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer_intro {
+	font-size: 16px;
+	line-height: 1.3px;
+}
+
+.offer__text {
+	font-size: 16px;
+	margin-top: 15px;
+	color: #555555;
+	width: 400px;
+}
+
+.icons__item a {
+	margin-right: 30px;
+}
+
+.icons__item a {
+	color: #000;
+	font-size: 42px;
+	transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+	text-decoration: none;
+	color: #ff4800;
+}
