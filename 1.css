@@ -1,82 +1,117 @@
 body {
 	
-	font-family: 'PT Sans', sans-serif;
+    font-family: 'Ranchers', cursive;
 }
 
-ul, li {
+ul,li{
 	display: block;
 	padding: 0;
 	margin: 0;
 }
 
 .header {
-	
 	background-image: url(background.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding: 10px;
 }
 
-.menu {
-	margin-top:8px;
+.menu{
+	margin-top: 8px;
 }
 
-.menu__item {
+.menu_item{
 	margin: 0 57px;
 }
 
-.menu__item a {
-	font-size:22px;
+.menu_item a{
+	font-size: 22px;
 	font-weight: 700;
 	color: #000;
 }
 
-.offer {
+.offer{
 	margin-top: 117px;
 }
 
-.offer__title {
-    font-size: 32px;
-    margin-bottom: 15px;
+.offer_title{
+	font-size: 32px;
+	margin-bottom: 15px;
 }
 
-.offer_intro {
-	font-size: 16px;
-	line-height: 1.3px;
+.offer_intro{
+	font-size: 20px;
+	line-height: 1.3em;
 }
 
-.offer__text {
+.offer_text{
 	font-size: 16px;
 	margin-top: 15px;
 	color: #555555;
 	width: 400px;
 }
 
-.icons__item a {
+.icons_item{
 	margin-right: 30px;
 }
 
-.icons__item a {
+.icons_item a{
 	color: #000;
 	font-size: 42px;
 	transition: all 0.3s ease;
 }
 
-.icons__item a:hover {
+.icons_item a:hover{
 	text-decoration: none;
 	color: #ff4800;
 }
 
-.title {
+h1, h2, h3, h4{
+	font-weight: 700;
+	color: #000;
+}
+
+h3{
+	font-weight: 400;
+}
+
+h2{
+	text-align: center;
+}
+
+.ipad{
+	display: block;
+	margin: 60px auto 0;
+	height: 420px;
+	width: 420px;
+}
+
+.title{
 	padding-top: 100px;
 }
 
-.title__main {
+.title_main{
 	font-size: 32px;
 	text-align: center;
 }
 
-.title_text {
+.title_text{
 	font-size: 20px;
 	text-align: center;
 }
+
+.interesting{
+	margin-bottom: 65px;
+}
+
+.interesting_icon{
+	font-size: 50px;
+	margin-right: 37px;
+	color:#000;
+}
+
+.interesting_text{
+	color: #898989;
+	background-color: #e0r0h000;
+}
+
