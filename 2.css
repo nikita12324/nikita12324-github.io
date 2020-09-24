@@ -1,0 +1,110 @@
+body {
+	font-family: 'Ranchers', cursive;
+}
+
+h2 {
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.header{
+	background: #000;
+}
+
+.menu{
+	margin-top: 8px;
+}
+
+.menu_item{
+	margin: 0 57px;
+}
+
+.menu_item a {
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.title{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.title_main {
+	font-size: 32px;
+	text-align: center;
+}
+
+.title_text{
+	font-size: 20px;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+.red{
+	color: #E0413B;
+}
+
+img{
+	width: 220px;
+	height: 220px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+    
+.footer{
+	background: #000;
+}
+.footer_info{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	padding: 50px 0 94px;
+	width: 184px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.rotate:hover{
+	transition: all 1s ease;
+	transform: rotateZ(-360deg);
+}
+.circle:hover{
+    border-radius: 100%;
+    transition: all 0.5s ease;
+}
+
+@keyframes swing{
+    15%{
+    	transform: translateX(5px);
+    }
+    30%{
+    	transition: translateX(-5px);
+    }
+    50%{
+    	transition: translateX(3px);
+    }
+    65%{
+    	transition: translateX(-3px);
+    }
+    80%{
+    	transition: translateX(2px);
+    }
+    100%{
+    	transition: translateX(0);
+    }
+}
+
+.swaying:hover{
+   animation: swing 1.5s ease;
+   animation-iteration-count: 1;
+   transition: all 0.5s ease;
+}
