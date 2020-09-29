@@ -36,7 +36,7 @@ ul,li{
 
 .offer_title{
 	font-size: 32px;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 
 .offer_intro{
@@ -81,7 +81,7 @@ h2{
 
 .ipad{
 	display: block;
-	margin: 60px auto 0;
+	margin: 0px auto 0;
 	height: 420px;
 	width: 420px;
 }
@@ -149,4 +149,18 @@ input{
 	width: 184px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+
+.offer_title:hover{
+  display: inline-block;
+  animation: rotateIn;
+  animation-duration: 0.6s;
+}
+
+.ipad:hover{
+  display: inline-block;
+  animation: jello;
+  margin: 0;
+  animation-duration: 0.6s;
 }
